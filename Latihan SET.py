@@ -110,8 +110,6 @@ angka 2: 5
 'i'
 >>> list
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'halo', 'h', 'a']
->>> 
-KeyboardInterrupt
 >>> list.pop(2)
 2
 >>> list
@@ -179,14 +177,6 @@ dict_values([100, 200, 300, 400, 500])
 >>> k.add('Dunia')
 >>> print(k)
 {'a', 'H', 'Dunia', 'i'}
->>> k.update('Maya)
-	 
-SyntaxError: EOL while scanning string literal
->>> k,update('Maya')
-Traceback (most recent call last):
-  File "<pyshell#108>", line 1, in <module>
-    k,update('Maya')
-NameError: name 'update' is not defined
 >>> k.update('Maya')
 >>> k
 {'H', 'y', 'M', 'i', 'a', 'Dunia'}
